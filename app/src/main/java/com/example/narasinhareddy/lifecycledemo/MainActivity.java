@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("lifecycle","onCreate invoked");
+        Log.d("lifecycl","onCreate invoked");
 
 
     }
@@ -56,11 +56,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         Log.d("lifecycle","onStop invoked");
     }
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d("lifecycle","onRestart invoked");
-    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
