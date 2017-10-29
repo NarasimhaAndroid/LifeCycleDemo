@@ -45,11 +45,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("lifecycle", "onSaveInstanceState:");
     }
 
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        Log.d("lifecycle", "onRestoreInstanceState: ");
-    }
+
 
     @Override
     protected void onStop() {
