@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class Secon extends AppCompatActivity {
 
-    Button btn;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
