@@ -13,7 +13,7 @@ public class Secon extends AppCompatActivity {
 
     Button btn;
     EditText etv;
-
+  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
