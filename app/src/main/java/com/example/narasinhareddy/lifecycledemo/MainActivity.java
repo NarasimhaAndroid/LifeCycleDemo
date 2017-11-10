@@ -12,14 +12,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d("lifecycl","onCreate invoked");
+        Log.d(TAG,"onCreate invoked");
 
 
     }
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d("lifecycle","onStart invoked");
+        Log.d(TAG,"onStart invoked");
 
 
     }
