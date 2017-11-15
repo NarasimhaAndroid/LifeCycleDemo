@@ -36,14 +36,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d("lifecycle","onPause invoked");
+        Log.d(TAG,"onPause invoked");
 
     }
 
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        Log.d("lifecycle", "onSaveInstanceState:");
+        Log.d(TAG, "onSaveInstanceState:");
     }
 
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d("lifecycle","onStop invoked");
+        Log.d(TAG,"onStop invoked");
     }
 
     @Override
