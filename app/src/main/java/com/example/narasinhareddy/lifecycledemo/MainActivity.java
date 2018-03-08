@@ -12,21 +12,21 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG,"onCreate invoked");
+        Log.d(TAG,"onCreate Invoked");
 
 
     }
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG,"onStart invoked");
+        Log.d(TAG,"onStart Invoked");
 
 
     }
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("lifecycle","onResume invoked");
+        Log.d("lifecycle","onResume Invoked");
 
         Intent i=new Intent(MainActivity.this,Secon.class);
         startActivity(i);
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG,"onPause invoked");
+        Log.d(TAG,"onPause Invoked");
 
     }
 
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(TAG,"onStop invoked");
+        Log.d(TAG,"onStop Invoked");
     }
 
     @Override
